@@ -1,0 +1,46 @@
+body {
+    background: #1a1518d5;
+    color: rgba(139, 203, 214, 0.808);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction:column;
+     font-size: 18px;
+   font-weight: 300;
+
+  }
+  
+  p {
+    display: block;
+  }
+
+  
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+Map {
+  width: 90%;
+	max-width: 1200px;
+    background-size: cover;
+    background-image: url('../imagen/mapa.png');
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+
+}
+
+ 
+
+
